@@ -1,0 +1,183 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "IN-01 US Rep GOP Primary",
+            "wrap": true,
+            "horizontalAlignment": "Center",
+            "style": "heading",
+            "fontType": "Default"
+        },
+        {
+            "type": "TextBlock",
+            "text": "AP Estimated Reporting: 99%",
+            "wrap": true,
+            "size": "Small",
+            "weight": "Lighter",
+            "horizontalAlignment": "Right",
+            "spacing": "None"
+        },
+        {
+            "type": "Table",
+            "columns": [
+                {
+                    "width": 6
+                },
+                {
+                    "width": 2
+                },
+                {
+                    "width": 2
+                }
+            ],
+            "rows": [
+                {
+                    "type": "TableRow",
+                    "cells": [
+                        {
+                            "type": "TableCell",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Candidate",
+                                    "horizontalAlignment": "Center",
+                                    "maxLines": 1
+                                }
+                            ],
+                            "spacing": "None"
+                        },
+                        {
+                            "type": "TableCell",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Votes",
+                                    "wrap": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableCell",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Share",
+                                    "wrap": true
+                                }
+                            ]
+                        }
+                    ],
+                    "style": "emphasis"
+                },
+                {
+                    "type": "TableRow",
+                    "cells": [
+                        {
+                            "type": "TableCell",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Mark Leyva",
+                                    "wrap": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableCell",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "7,507",
+                                    "wrap": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableCell",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "24.8%",
+                                    "wrap": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "TableRow",
+                    "cells": [
+                        {
+                            "type": "TableCell",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Ben Ruiz",
+                                    "wrap": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableCell",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "4,364",
+                                    "wrap": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableCell",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "14.4%",
+                                    "wrap": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "TableRow",
+                    "cells": [
+                        {
+                            "type": "TableCell",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Randy Niemeyer",
+                                    "wrap": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableCell",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "18,438",
+                                    "wrap": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableCell",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "60.8%",
+                                    "wrap": true
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.6"
+}
