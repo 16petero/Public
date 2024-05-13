@@ -5,18 +5,13 @@
             "type": "TextBlock",
             "text": "${ShortTitle}",
             "wrap": true,
-            "horizontalAlignment": "Center",
-            "style": "heading",
-            "fontType": "Default"
+            "horizontalAlignment": "Center"
         },
         {
             "type": "TextBlock",
             "text": "${APEstimate}",
             "wrap": true,
-            "size": "Small",
-            "weight": "Lighter",
-            "horizontalAlignment": "Right",
-            "spacing": "None"
+            "horizontalAlignment": "Right"
         },
         {
             "type": "ColumnSet",
