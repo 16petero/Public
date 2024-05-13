@@ -3,7 +3,7 @@
     "body": [
         {
             "type": "TextBlock",
-            "text": "IN-01 US Rep GOP Primary",
+            "text": "${ShortTitle}",
             "wrap": true,
             "horizontalAlignment": "Center",
             "style": "heading",
@@ -11,7 +11,7 @@
         },
         {
             "type": "TextBlock",
-            "text": "AP Estimated Reporting: 99%",
+            "text": "${APEstimate}",
             "wrap": true,
             "size": "Small",
             "weight": "Lighter",
@@ -78,7 +78,7 @@
                             "items": [
                                 {
                                     "type": "TextBlock",
-                                    "text": "Mark Leyva",
+                                    "text": "${ComboName}",
                                     "wrap": true
                                 }
                             ]
@@ -88,7 +88,7 @@
                             "items": [
                                 {
                                     "type": "TextBlock",
-                                    "text": "7,507",
+                                    "text": "${formatNumber(Votes,0)}",
                                     "wrap": true
                                 }
                             ]
@@ -98,82 +98,13 @@
                             "items": [
                                 {
                                     "type": "TextBlock",
-                                    "text": "24.8%",
+                                    "text": "${formatNumber(VoteShare,1)}%",
                                     "wrap": true
                                 }
                             ]
                         }
-                    ]
-                },
-                {
-                    "type": "TableRow",
-                    "cells": [
-                        {
-                            "type": "TableCell",
-                            "items": [
-                                {
-                                    "type": "TextBlock",
-                                    "text": "Ben Ruiz",
-                                    "wrap": true
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableCell",
-                            "items": [
-                                {
-                                    "type": "TextBlock",
-                                    "text": "4,364",
-                                    "wrap": true
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableCell",
-                            "items": [
-                                {
-                                    "type": "TextBlock",
-                                    "text": "14.4%",
-                                    "wrap": true
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "TableRow",
-                    "cells": [
-                        {
-                            "type": "TableCell",
-                            "items": [
-                                {
-                                    "type": "TextBlock",
-                                    "text": "Randy Niemeyer",
-                                    "wrap": true
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableCell",
-                            "items": [
-                                {
-                                    "type": "TextBlock",
-                                    "text": "18,438",
-                                    "wrap": true
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableCell",
-                            "items": [
-                                {
-                                    "type": "TextBlock",
-                                    "text": "60.8%",
-                                    "wrap": true
-                                }
-                            ]
-                        }
-                    ]
+                    ],
+                    "$data": "${data}"
                 }
             ]
         }
