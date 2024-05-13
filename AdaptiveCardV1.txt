@@ -19,96 +19,45 @@
             "spacing": "None"
         },
         {
-            "type": "Table",
+            "type": "ColumnSet",
+            "$data": "${data}",
             "columns": [
                 {
-                    "width": 6
-                },
-                {
-                    "width": 2
-                },
-                {
-                    "width": 2
-                }
-            ],
-            "rows": [
-                {
-                    "type": "TableRow",
-                    "cells": [
+                    "type": "Column",
+                    "width": 6,
+                    "items": [
                         {
-                            "type": "TableCell",
-                            "items": [
-                                {
-                                    "type": "TextBlock",
-                                    "text": "Candidate",
-                                    "horizontalAlignment": "Center",
-                                    "maxLines": 1
-                                }
-                            ],
-                            "spacing": "None"
-                        },
-                        {
-                            "type": "TableCell",
-                            "items": [
-                                {
-                                    "type": "TextBlock",
-                                    "text": "Votes",
-                                    "wrap": true
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableCell",
-                            "items": [
-                                {
-                                    "type": "TextBlock",
-                                    "text": "Share",
-                                    "wrap": true
-                                }
-                            ]
+                            "type": "TextBlock",
+                            "text": "${ComboName}",
+                            "wrap": true
                         }
-                    ],
-                    "style": "emphasis"
+                    ]
                 },
                 {
-                    "type": "TableRow",
-                    "cells": [
+                    "type": "Column",
+                    "width": 2,
+                    "items": [
                         {
-                            "type": "TableCell",
-                            "items": [
-                                {
-                                    "type": "TextBlock",
-                                    "text": "${ComboName}",
-                                    "wrap": true
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableCell",
-                            "items": [
-                                {
-                                    "type": "TextBlock",
-                                    "text": "${formatNumber(Votes,0)}",
-                                    "wrap": true
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableCell",
-                            "items": [
-                                {
-                                    "type": "TextBlock",
-                                    "text": "${formatNumber(VoteShare,1)}%",
-                                    "wrap": true
-                                }
-                            ]
+                            "type": "TextBlock",
+                            "text": "${formatNumber(Votes,0)}",
+                            "wrap": true
                         }
-                    ],
-                    "$data": "${data}"
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": 2,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${formatNumber(VoteShare,1)}%",
+                            "wrap": true
+                        }
+                    ]
                 }
             ]
         }
     ],
     "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-    "version": "1.6"
+    "version": "1.3"
 }
